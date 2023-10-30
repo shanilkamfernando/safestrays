@@ -8,7 +8,7 @@ function HomePage() {
       <div className={"heroBanner"}>
         <header className="absolute inset-x-0 top-0 z-50">
           <nav
-            className="flex items-center justify-end p-6 lg:px-8 text-white"
+            className="flex items-center justify-end p-6 lg:px-8 text-white bg-black"
             aria-label="Global"
           >
             <div className="hidden lg:flex lg:gap-x-12 ">
@@ -39,7 +39,7 @@ function HomePage() {
             </div>
           </nav>
 
-          <div className="lg:hidden" role="dialog" aria-modal="true">
+          {/* <div className="lg:hidden" role="dialog" aria-modal="true">
             <div className="fixed inset-0 z-50"></div>
             <div className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
               <div className="flex items-center justify-between">
@@ -86,7 +86,7 @@ function HomePage() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </header>
 
         <div className="h-[100vh] flex flex-col justify-center items-center">
@@ -140,44 +140,44 @@ function HomePage() {
         </div>
         <div className=" grid grid-cols-4 gap-4 mx-[10rem] pt-10 ">
           <div className={" firstCard"}>
-            <div className="flex flex-col h-[220px] justify-evenly items-center" >
-                <div className=" flex flex-col justify-center  p-6 text-center text-white uppercase font-bold  text-[14px]">
+            <div className="flex flex-col h-[220px] justify-evenly items-center">
+              <div className=" flex flex-col justify-center  p-6 text-center text-white uppercase font-bold  text-[14px]">
                 Stray dog sighting and health reporting
-                </div>
-              
+              </div>
+
               <div className="bg-black text-white text-center rounded-lg uppercase w-[50%] text-[14px]">
                 view more
               </div>
             </div>
           </div>
           <div className={" secondCard"}>
-            <div className="flex flex-col h-[220px] justify-evenly items-center" >
-                <div className=" flex flex-col justify-center  p-6 text-center text-white uppercase font-bold  text-[14px]">
+            <div className="flex flex-col h-[220px] justify-evenly items-center">
+              <div className=" flex flex-col justify-center  p-6 text-center text-white uppercase font-bold  text-[14px]">
                 Stray dog sighting and health reporting
-                </div>
-              
+              </div>
+
               <div className="bg-black text-white text-center rounded-lg uppercase w-[50%] text-[14px]">
                 view more
               </div>
             </div>
           </div>
           <div className={" thirdCard"}>
-            <div className="flex flex-col h-[220px] justify-evenly items-center" >
-                <div className=" flex flex-col justify-center  p-6 text-center text-white uppercase font-bold  text-[14px]">
+            <div className="flex flex-col h-[220px] justify-evenly items-center">
+              <div className=" flex flex-col justify-center  p-6 text-center text-white uppercase font-bold  text-[14px]">
                 Stray dog sighting and health reporting
-                </div>
-              
+              </div>
+
               <div className="bg-black text-white text-center rounded-lg uppercase w-[50%] text-[14px] ">
                 view more
               </div>
             </div>
           </div>
           <div className={" fourthCard"}>
-            <div className="flex flex-col h-[220px] justify-evenly items-center" >
-                <div className=" flex flex-col justify-center  p-6 text-center text-white uppercase font-bold  text-[14px]">
+            <div className="flex flex-col h-[220px] justify-evenly items-center">
+              <div className=" flex flex-col justify-center  p-6 text-center text-white uppercase font-bold  text-[14px]">
                 Stray dog sighting and health reporting
-                </div>
-              
+              </div>
+
               <div className="bg-black text-white text-center rounded-lg uppercase w-[50%] text-[14px] ">
                 view more
               </div>
@@ -188,7 +188,7 @@ function HomePage() {
 
       <div className="bg-black p-5 flex justify-center items-center flex-col">
         <div className="tracking-[6px] uppercase">SafeStrays</div>
-      <div className="leading-relaxed">copyright @ SafeStrays 2023</div>
+        <div className="leading-relaxed">copyright @ SafeStrays 2023</div>
       </div>
     </div>
   );
