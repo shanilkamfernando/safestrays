@@ -146,7 +146,7 @@ function HomePage() {
                 </div>
               
               <div className="bg-black text-white text-center rounded-lg uppercase w-[50%] text-[14px]">
-                view more
+                <a href="www.google.com">view more</a>
               </div>
             </div>
           </div>
@@ -157,7 +157,7 @@ function HomePage() {
                 </div>
               
               <div className="bg-black text-white text-center rounded-lg uppercase w-[50%] text-[14px]">
-                view more
+              <a href="www.google.com">view more</a>
               </div>
             </div>
           </div>
@@ -168,7 +168,7 @@ function HomePage() {
                 </div>
               
               <div className="bg-black text-white text-center rounded-lg uppercase w-[50%] text-[14px] ">
-                view more
+                <a href="www.google.com">view more</a>
               </div>
             </div>
           </div>
@@ -179,7 +179,7 @@ function HomePage() {
                 </div>
               
               <div className="bg-black text-white text-center rounded-lg uppercase w-[50%] text-[14px] ">
-                view more
+              <a href="www.google.com">view more</a>
               </div>
             </div>
           </div>
