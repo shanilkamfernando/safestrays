@@ -1,0 +1,7 @@
+.heroBanner{
+    background-image: url('../../public/images/bgImage.jpg');
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
