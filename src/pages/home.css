@@ -1,7 +1,73 @@
-.heroBanner{
-    background-image: url('../../public/images/bgImage.jpg');
-    height: 100vh;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
+.heroBanner {
+  background-image: url("../../public/images/bgtesting.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: aliceblue;
+}
+
+.firstCard {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.32),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("../../public/images/first.png");
+  border-radius: 48px;
+  background-size: cover;
+  background-position: left;
+  height: 220px;
+  border: 5px solid #FFF;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 4px 4px 50px 0px rgba(0, 0, 0, 0.20) ;
+}
+
+.secondCard{
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.32),
+        rgba(255, 255, 255, 0.3)
+      ),
+      url("../../public/images/second.png");
+      border-radius: 48px;
+      background-size: cover;
+      background-position: left;
+      height: 220px;
+      border: 5px solid #FFF;
+      display: flex;
+      box-shadow: 4px 4px 50px 0px rgba(0, 0, 0, 0.20) ;
+      flex-direction: column;
+}
+.thirdCard{
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.32),
+        rgba(255, 255, 255, 0.3)
+      ),
+      url("../../public/images/third.png");
+      border-radius: 48px;
+      background-size: cover;
+      background-position: left;
+      height: 220px;
+      border: 5px solid #FFF;
+      display: flex;
+      box-shadow: 4px 4px 50px 0px rgba(0, 0, 0, 0.20) ;
+      flex-direction: column;
+}
+.fourthCard{
+    background-image: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.32),
+        rgba(255, 255, 255, 0.3)
+      ),
+      url("../../public/images/fourth.png");
+      border-radius: 48px;
+      background-size: cover;
+      background-position: left;
+      height: 220px;
+      border: 5px solid #FFF;
+      display: flex;
+      box-shadow: 4px 4px 50px 0px rgba(0, 0, 0, 0.20) ;
+      flex-direction: column;
 }
