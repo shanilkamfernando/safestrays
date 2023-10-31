@@ -8,12 +8,12 @@ function HomePage() {
       <div className={"heroBanner"}>
         <header className="absolute inset-x-0 top-0 z-50">
           <nav
-            className="flex items-center justify-end p-6 lg:px-8 text-white bg-black"
+            className="flex items-center justify-end p-6 lg:px-8 text-white navbar"
             aria-label="Global"
           >
-            <div className="hidden lg:flex lg:gap-x-12 ">
+            <div className="hidden lg:flex lg:gap-x-12 mx-20">
               <a
-                href="#"
+                href="/"
                 className="text-sm font-semibold leading-6 text-white underline underline-offset-8"
               >
                 HOME
@@ -94,20 +94,20 @@ function HomePage() {
             <div className="text-[36px]">WELCOME TO</div>
             <div className="text-[144px]">SafeStrays</div>
           </div>
-          <div className=" rounded-xl border-[1px] border-white tracking-widest w-[20%] flex justify-center bg-[#C4C4C454] ">
+          <div className="  border-[1px] border-white tracking-widest w-[20%] flex justify-center bg-[#C4C4C454] py-2 rounded-full">
             Search
           </div>
         </div>
       </div>
       <div className="bg-white text-black flex flex-col justify-center pb-10">
         <div className="flex justify-center flex-col">
-          <div className="text-[30px] uppercase text-center tracking-[9px] border-b-2 border-black mx-[30rem]">
+          <div className="text-[30px] uppercase text-center tracking-[9px] border-b-2 border-black mx-[30rem] font-bold pb-5">
             SafeStrays
           </div>
           {/* <div className="border-b-2 border-black pt-7 w-[400px] pb-10 "></div> */}
         </div>
         <div className="text-black text-[16px]">
-          <div className="pt-[2rem] mx-32 text-center">
+          <div className="pt-[2rem] mx-32 text-center mt-10">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type
@@ -131,9 +131,10 @@ function HomePage() {
           </div>
         </div>
       </div>
-      <div className="bg-white text-black flex flex-col justify-center pb-10">
+
+      <div className="bg-white text-black flex flex-col justify-center pb-20">
         <div className="flex justify-center flex-col pb-10">
-          <div className="text-[30px] uppercase text-center tracking-[9px] border-b-2 border-black mx-[20rem]">
+          <div className="text-[30px] uppercase text-center tracking-[9px] border-b-2 border-black mx-[20rem] mt-10 pb-5 font-bold">
             Explore our services
           </div>
           {/* <div className="border-b-2 border-black pt-7 w-[400px] pb-10 "></div> */}
@@ -145,8 +146,8 @@ function HomePage() {
                 Stray dog sighting and health reporting
               </div>
 
-              <div className="bg-black text-white text-center rounded-lg uppercase w-[50%] text-[14px]">
-                <a href="www.google.com">view more</a>
+              <div className="bg-black text-white text-center uppercase w-[50%] text-[14px] py-2 rounded-full">
+                <a href="/sighting">view more</a>
               </div>
             </div>
           </div>
@@ -156,8 +157,8 @@ function HomePage() {
                 Stray dog sighting and health reporting
               </div>
 
-              <div className="bg-black text-white text-center rounded-lg uppercase w-[50%] text-[14px]">
-              <a href="www.google.com">view more</a>
+              <div className="bg-black text-white text-center uppercase w-[50%] text-[14px] py-2 rounded-full">
+                <a href="/sighting">view more</a>
               </div>
             </div>
           </div>
@@ -167,8 +168,8 @@ function HomePage() {
                 Stray dog sighting and health reporting
               </div>
 
-              <div className="bg-black text-white text-center rounded-lg uppercase w-[50%] text-[14px] ">
-                <a href="www.google.com">view more</a>
+              <div className="bg-black text-white text-center uppercase w-[50%] text-[14px]  py-2 rounded-full">
+                <a href="/sighting">view more</a>
               </div>
             </div>
           </div>
@@ -178,15 +179,15 @@ function HomePage() {
                 Stray dog sighting and health reporting
               </div>
 
-              <div className="bg-black text-white text-center rounded-lg uppercase w-[50%] text-[14px] ">
-              <a href="www.google.com">view more</a>
+              <div className="bg-black text-white text-center uppercase w-[50%] text-[14px]  py-2 rounded-full">
+                <a href="/sighting">view more</a>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="bg-black p-5 flex justify-center items-center flex-col">
+      <div className="bg-black py-20 flex justify-center items-center flex-col ">
         <div className="tracking-[6px] uppercase">SafeStrays</div>
         <div className="leading-relaxed">copyright @ SafeStrays 2023</div>
       </div>
